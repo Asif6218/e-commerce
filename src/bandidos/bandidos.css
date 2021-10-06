@@ -1,0 +1,37 @@
+.div {
+    background-color: black;
+    color: white;
+  }
+  a {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 125%;
+  }
+  .navigation:hover {
+    background-color: gray;
+    color: rgb(14, 14, 56);
+  }
+  .sec {
+    width: 20vw;
+    display: inline-block;
+    margin: 4vw;
+  
+    margin-bottom: 0.95vw;
+    margin-left: 8.5vw;
+  }
+  .img {
+    width: 20vw;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 3vw;
+  }
+  p {
+    padding-left: 0.5vw;
+    text-align: center;
+    color: white;
+    font-size: 1.5vw;
+    font-family: sans-serif;
+  }
+  

@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .App {
+    padding-bottom: 3vw;
+    background: linear-gradient(rgb(47, 45, 61), rgb(106, 124, 175));
+    height: 100%;
+  }
+  .bar {
+    background-color: rgb(5, 10, 49);
+    color: rgb(226, 223, 255);
+    width: 100%;
+    position: sticky;
+    top: 0;
+  }
+  
+  .brand {
+    margin-right: 1vw;
+    background-color: rgb(5, 10, 49);
+    font-size: 5vw;
+    padding-left: 2vw;
+  
+    font-family: "Permanent Marker", cursive;
+    position: sticky;
+    top: 0;
+  }
+  .name {
+    margin: vw vw 9vw 9vw;
+    font-family: sans-serif;
+    background-color: rgb(5, 10, 49);
+    font-size: 2vw;
+    position: sticky;
+    top: 0;
+  }
+  .end {
+    color: rgb(226, 223, 255);
+    background-color: rgb(5, 10, 49);
+    font-size: 2.5vw;
+    margin-left: 55vw;
+    position: sticky;
+    top: 0;
+  }
+  .cart {
+    margin-left: 1vw;
+    position: sticky;
+    top: 0;
+    font-size: 3vw;
+    color: rgb(226, 223, 255);
+  }
+  .pro {
+    display: flex;
+    flex-wrap: wrap;
+    border: 0.001vw solid black;
+  }
+  button {
+    display: inline;
+    margin-left: 6.8vw;
+    margin-right: 10.8vw;
+    width: 6rem;
+    height: 2.5vw;
+    color: rgb(226, 223, 255);
+    background-color: rgb(5, 10, 49);
+    border-radius: 3vw;
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-top: 1vw;
+    border: transparent solid 1px;
+  }
+  @media (max-width: 768px) {
+    button {
+      font-size: 4px;
+      font-weight: 500;
+      width: 15vw;
+      margin-right: 5vw;
+      margin-left: 3vw;
+      height: 3.5vw;
+    }
+    .bar {
+      height: 10vw;
+      width: 100%;
+      position: sticky;
+      top: 0;
+    }
+    .brand {
+      font-size: 6vw;
+      margin-right: 1vw;
+      position: sticky;
+      top: 0;
+      padding-top: 1.3vw;
+    }
+    .name {
+      font-size: 3vw;
+      position: sticky;
+      top: 0;
+      padding-top: 4vw;
+    }
+    .end {
+      margin-left: 40vw;
+      font-size: 5vw;
+      padding-top: 3vw;
+      position: sticky;
+      top: 0;
+    }
+    .cart {
+      font-size: 5vw;
+      position: sticky;
+      top: 0;
+      padding-top: 3vw;
+    }
+  }
+  
